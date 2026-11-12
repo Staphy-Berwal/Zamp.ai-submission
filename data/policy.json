@@ -1,0 +1,15 @@
+{
+  "name": "Default",
+  "severity": {
+    "shared_bank": "critical",
+    "employee_link": "hold",
+    "dup_identity": "review",
+    "gst_not_found": "review",
+    "pan_entity": "review",
+    "gstin_state": "review",
+    "shared_phone": "review",
+    "dup_name": "review",
+    "free_email": "info"
+  },
+  "low_confidence_threshold": 0.75
+}

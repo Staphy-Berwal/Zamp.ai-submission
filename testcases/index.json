@@ -1,0 +1,33 @@
+{
+  "TC1": {
+    "title": "Happy path - clean company",
+    "expected": "Approved",
+    "story": "All documents agree, registries confirm, bank verified."
+  },
+  "TC2": {
+    "title": "Inconsistent entity names",
+    "expected": "Pending",
+    "story": "GST shows 'PVT. LTD.' (harmless); cancelled cheque is in the name 'Nimbus Freight Services' (needs clarification)."
+  },
+  "TC3": {
+    "title": "Bank account belongs to an existing vendor",
+    "expected": "Rejected",
+    "story": "Every document looks perfect, but the bank account already pays another vendor and the bank returns that vendor's name."
+  },
+  "TC4": {
+    "title": "Missing + expired documents, then resubmission",
+    "expected": "Pending",
+    "story": "No Certificate of Incorporation and an FSSAI licence that expired in March 2026. Resubmission TC4-R fixes both.",
+    "resubmission": "TC4R"
+  },
+  "TC5": {
+    "title": "Poor-quality scanned bank proof",
+    "expected": "Pending",
+    "story": "Sole proprietorship; the cheque is a blurry phone scan, account number unreadable. The system must not call it a mismatch."
+  },
+  "TC6": {
+    "title": "Subsidiary paid into parent's account",
+    "expected": "Pending",
+    "story": "A new subsidiary honestly declares it is paid into its parent's (an existing vendor's) account. Not fraud, but the classic diversion pattern: high-risk hold for Finance Controls. Under a stricter client policy it is rejected."
+  }
+}

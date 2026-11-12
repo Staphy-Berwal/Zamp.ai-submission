@@ -1,0 +1,16 @@
+[
+  {
+    "employee_id": "E-217",
+    "name": "Suresh Pillai",
+    "department": "Procurement",
+    "account_number": "33019876543",
+    "phone": "9447011223"
+  },
+  {
+    "employee_id": "E-342",
+    "name": "Kavita Joshi",
+    "department": "Accounts Payable",
+    "account_number": "50100998877665",
+    "phone": "9822233441"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "vendor_id": "V-1001",
+    "legal_name": "Orion Traders Private Limited",
+    "pan": "AAECO4521M",
+    "gstin": "27AAECO4521M1Z9",
+    "account_number": "50200011223344",
+    "ifsc": "HDFC0000001",
+    "contact_phone": "9820045512",
+    "onboarded": "2023-08-14",
+    "status": "Active"
+  },
+  {
+    "vendor_id": "V-1002",
+    "legal_name": "Kaveri Steel Private Limited",
+    "pan": "AAFCK2210D",
+    "gstin": "29AAFCK2210D1Z1",
+    "account_number": "60112233445",
+    "ifsc": "SBIN0000300",
+    "contact_phone": "9880012345",
+    "onboarded": "2022-11-02",
+    "status": "Active"
+  },
+  {
+    "vendor_id": "V-1003",
+    "legal_name": "Sunrise Print Solutions",
+    "pan": "AJKPS9921B",
+    "gstin": "07AJKPS9921B1Z0",
+    "account_number": "917010023344556",
+    "ifsc": "KKBK0000261",
+    "contact_phone": "9810077123",
+    "onboarded": "2024-04-19",
+    "status": "Active"
+  }
+]
